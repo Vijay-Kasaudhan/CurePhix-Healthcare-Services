@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@300;600&family=Open+Sans:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+.registrationpage{
+    width:400px;
+    height:850px;
+    background:#F5FFFA;
+    position:relative;
+    top:17%;
+    left: 50%;
+    margin-bottom:30px;
+    margin-top: 30px;
+    transform: translate(-50%);
+    box-shadow: 3px 2px 3px #0171d3 ;
+}
+/* .Loginpage::before{
+    width:400px;
+    height:600px;
+    background: grey;
+    border: 2px solid red;
+    position: absolute;
+    left:400px;
+    z-index: 12;
+} */
+.registrationpage img{
+    width:200px;
+    height:200px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+.Loginpage p{
+    font-family:"'Anybody', cursive";
+    font-size:26px;
+    font-weight: 700;
+   position: absolute;
+   top: 178px;
+   left:50%;
+   transform: translate(-50%);
+}
+.registrationinput-field{
+width:300px;
+height:55px;
+position:relative;
+top:50px;
+border-bottom: 1px solid black;
+margin-left: 50%;
+transform:translate(-50%);
+}
+.registrationinput-field1{
+width:300px;
+height:55px;
+margin-top:20px;
+position:relative;
+top:50px;
+border-bottom: 1px solid black;
+margin-left: 50%;
+transform:translate(-50%);
+}
+.registrationinput-field1 input{
+    width:297.5px;
+    height:30px;
+    outline:white;
+    border:0px; 
+    margin-top:4.5px;
+    
+}
+.registrationinput-field input{
+    width:297.5px;
+    height:30px;
+    outline:white;
+    border:0px; 
+    margin-top:4.5px;
+    
+}
+.registrationpage button{
+    margin-top:90px;
+    margin-left:50%;
+    transform: translate(-50%);
+    width:100px;
+    height:40px;
+    background: #0171d3;
+    color:white;
+    border:2px solid #F5FFFA;
+    font-size:16px;
+}
+.regestrationformlink{
+    margin-top:20px;
+}
+.regestrationformlink span{
+    margin-left:23%;
+    
+}
+@media(max-width:420px){
+    .registrationpage{
+        width:360px;
+        height:800px;
+       top:-130px;
+    }
+    .registrationinput-field{
+        width:240px;
+        height:55px;
+        margin-top:60%;
+        
+        }
+        .registrationinput-field1{
+        width:240px;
+        height:55px;
+        margin-top:20px;
+       
+        }
+        .registrationinput-field input{
+            width:240px;
+        }
+        .registrationinput-field1 input{
+            width:240px;
+        }
+        .Loginpage p{
+            top:140px;
+        }
+     
+        .regestrationformlink{
+            margin-left:-40px;
+            
+        }
+}

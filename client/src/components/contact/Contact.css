@@ -1,0 +1,100 @@
+.contactformcontainer{
+    width:100%;
+    height:80vh;
+    background:#1E88E5;
+    
+    margin-bottom: 2%;
+}
+.contactformcontainer h3{
+    font-size: 32px;
+
+    margin-top: 2.5%;
+    margin-left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+} 
+.contactform{
+width:50%;
+height:60px;
+
+position: relative;
+left:50%;
+top:20%;
+margin-top: 10px;
+transform: translate(-50%);
+}
+.contactform span{
+   position:absolute;
+   top:5px;
+   left:10px;
+}
+.contactform input{
+    width:700px;
+    height:30px;
+    /* position:relative;
+    top:30px;
+    left:-25px; */
+    margin-top:30px;
+    margin-left: 10px;
+}
+.contactform textarea{
+    width:700px;
+    height:100px;
+    margin-top:30px;
+    margin-left: 10px;
+}
+.contactformcontainer button{
+    width:100px;
+    height:30px;
+    position:relative;
+    top:38%;
+    left:50%;
+    transform: translate(-50%);
+}
+@media(max-width:430px){
+    .contactform input{
+        width:300px;
+        height:30px;
+        /* position:relative;
+        top:30px;
+        left:-25px; */
+        margin-top:30px;
+        margin-left: 10px;
+    }
+    .contactform{
+        left:35%;
+    }
+    .contactform textarea{
+        width:300px;
+    }
+}
+@media(max-width:360px){
+    .contactform input{
+        width:300px;
+        height:30px;
+        /* position:relative;
+        top:30px;
+        left:-25px; */
+        margin-top:30px;
+        margin-left: 10px;
+    }
+    .contactform{
+        left:30%;
+    }
+    .contactform textarea{
+        width:300px;
+    }
+}
+@media screen and (min-width:765px) and (max-width:840px) {
+    .contactform{
+        left:30%;
+    }
+    .contactformcontainer button{
+        width:100px;
+        height:30px;
+        position:relative;
+        top:32%;
+        left:50%;
+        transform: translate(-50%);
+    }
+}

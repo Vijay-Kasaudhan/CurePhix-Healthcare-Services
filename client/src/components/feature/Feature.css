@@ -1,0 +1,66 @@
+.featurecontainer{
+    width:200px;
+    height:250px;
+    background:white;
+    border-radius: 20px;
+    overflow: hidden;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left:50px;
+    margin-top:42px;
+    box-shadow: 15px 15px 15px rgb(197, 194, 194);
+}
+
+.image{
+    height:100px;
+
+    border-radius:60%;
+}
+.image img{
+    
+    border-radius:45%;
+    margin-left:40px;
+    margin-top:20px;
+}
+.SpecializationName{
+    width: 200px;
+margin-top:60px;
+margin-left:50%;
+transform: translate(-50%);
+font-size: 18px;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor:pointer;
+}
+.specializationbtn{
+    font-size:14px;
+    width: 50px;
+    height:25px;
+background: #1E8EE5;
+color: white;
+margin-top:20px;
+
+}
+@media(max-width:320px){
+    .featurecontainer{
+        width: 150px;
+        height:220px;
+        margin-top:15px;
+        margin-left: 30px;
+    }
+    .image{
+        height:30px;
+        margin-left:-25px;
+        margin-top: -5px;
+    }
+    .SpecializationName{
+        margin-top: 120px;
+        font-size:16px;
+    }
+    .specializationbtn{
+        margin-top: 5px;
+    }
+  }
+  

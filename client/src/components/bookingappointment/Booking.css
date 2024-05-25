@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@300;600&family=Open+Sans:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+.bookingcontainer{
+ width: 400px;
+ height:600px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 10px;
+ position:absolute;
+ left:35%;
+ margin-top:50px;
+ margin-bottom: 120px;
+ margin-left:-250px;
+ 
+ background:white;
+ box-shadow: 3px 2px 3px #1E8EE5;
+ 
+}
+.bookingpagecontent{
+  margin-left:60%;
+  margin-top:20px;
+  transform: translate(-50%);
+}
+.bookingdetails{
+  width:70%;
+  height:750px;
+  border:0.5px solid #1E8EE5;
+  /* border:5px solid black; */
+  /* box-shadow: 5px 5px 5px black; */
+  background:transparent;
+  margin-top:-70px;
+  margin-bottom:50px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+.bookingdetails p{
+  font-size:28px;
+  margin-top:30px;
+  margin-left:15%;
+  color: black;
+  font-weight:700px;
+}
+.personaldetails{
+    margin-top:-35px;
+}
+.personaldetails span{
+  margin-top:20px;
+  font-size: 18px;
+}
+.inputbox{
+  width:250px;
+  height:40px;
+  
+  margin-top:10px;
+}
+.inputbox input{
+  
+    width: 250px;
+    height:39.5px;
+    padding:10px;
+    
+    color: black;
+    
+    margin-bottom: 2px;
+}
+.Bookingbutton .btn{
+  width:150px;
+  height:40px;
+  margin-left:50%;
+  margin-top: 25px;
+  transform: translate(-50%);
+  background:#1E8EE5;
+  color:white;
+  outline:none;
+  border:1px solid #1E8EE5;
+}
+.doctorsection{
+  width:600px;
+  height:600px;
+  margin-right:20%;
+  background:white;
+  box-shadow: 5px 5px 5px 4px #1E8EE5;
+  /* border: 1px solid grey; */
+  display:none;
+  border-radius: 20px;
+  position:absolute;
+  top:40px;
+  left:55%;
+   
+}
+.section{
+  width:300px;
+  height:85vh;
+  position: absolute;
+  top:16%;
+  right:10%;
+  background: white;
+  
+  
+  box-shadow: 3px 3px 3px #1E8EE5;
+}
+.section span{
+  margin-top:15px;
+  display:block;
+}
+.section img{
+  position: relative;
+  left:30%;
+ 
+  margin-left:50%;
+}
+.sectioninfo{
+ position: relative;
+ top:5px;
+ left:25%;
+
+}
+@media(max-width:420px) and (min-width:373px){
+.bookingcontainer{
+  width:90%;
+ left:68%;
+
+}
+.bookingdetails{
+  width:95%;
+  height:950px;
+  margin-top: 20px;
+  
+}
+.bookingdetails p{
+  font-size:20px;
+  margin-top:20px;
+  margin-left:35px;
+}
+  .bookingpagecontent span{
+    font-size:22px;
+  }
+  .section{
+    display:block;
+    top:80%;
+    width:90%;
+  }
+  .inputbox input{
+
+    width:250px;
+    height:38px;
+    margin-left:5px;
+    padding: 10px;
+    font-weight: 700;
+}
+ .Bookingbutton .btn{
+
+  margin-top:35px;
+
+} 
+ .bookingpagecontent{
+  display: none;
+} 
+}
+@media(max-width:360px){
+  .bookingcontainer{
+    width:90%;
+   left:77%;
+  
+  }
+  .bookingdetails{
+    width:90%;
+    height:950px;
+    margin-top: 20px;
+    
+  }
+  .bookingdetails p{
+    font-size:20px;
+    margin-top:20px;
+    margin-left:28px;
+  }
+    .bookingpagecontent span{
+      font-size:22px;
+    }
+    .section{
+      display:block;
+      top:80%;
+      width:90%;
+    }
+    .inputbox input{
+  
+      width:250px;
+      height:38px;
+      margin-left:5px;
+      padding: 10px;
+      font-weight: 700;
+  }
+   .Bookingbutton .btn{
+  
+    margin-top:35px;
+  
+  } 
+   .bookingpagecontent{
+    display: none;
+  } 
+}

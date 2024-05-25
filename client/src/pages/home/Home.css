@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@300;600&family=Open+Sans:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+.whatsappcontainer{
+    position:sticky;
+    top: 600px;
+    left:80%;
+    margin-left:96%;
+
+}
+.Homecontent{
+    position: relative;
+    margin-top:60px;
+    margin-left:19%;
+    margin-bottom:10px ;
+    text-transform: translate(-50%);
+}
+@media screen and (max-width:430px) {
+    .whatsappcontainer{
+        margin-left:76%;
+    }
+    .Homecontent span{
+        font-size: 10px;
+    }
+}
+@media screen and (min-width:765px) and (max-width:840px) {
+    .whatsappcontainer{
+        margin-left: 85%;
+    }
+}

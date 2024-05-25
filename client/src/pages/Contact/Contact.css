@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@300;600&family=Open+Sans:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+.feedbackcontainer{
+    width: 100%;
+    height:55vh;
+    background:linear-gradient(#1E8EE5,white);
+    margin-top: 10px;
+    
+}
+.feedbackinputsection{
+    width: 700px;
+    height:30vh;
+    background: #1E8EE5;
+    box-shadow: 5px 5px 5px white;
+    position:relative;
+    top:52%;
+    left: 50%;
+    margin-bottom: 20px;
+    transform: translate(-50%);
+ 
+}
+
+.feedbackspan{
+    position: absolute;
+    margin-left:50%;
+    transform:translate(-50%);
+    font-size: 42px;
+    top: 20%;
+    font-weight: bolder;
+}
+ textarea{
+    border: 2px solid white;
+    outline: none;
+    width:550px;
+    height:70px;
+    margin-left:10%;
+    margin-top:8%;
+    margin-bottom:20px;
+    padding:10px;
+}
+.feedbackh5{
+    position: absolute;
+    margin-left:50%;
+    margin-top:6%;
+    font-size: 22px;
+    transform: translate(-50%);
+    color: white;
+    font-family:"'Open Sans', sans-serif";
+}
+/* textarea{
+   margin-left:47px;
+   border: 2px solid black;
+   width: 600px;
+   height: 40vh;
+} */
+.feedbacksubmit{
+    position: absolute;
+    border: 1px solid rgb(193, 186, 186);
+    top:150px;
+    left: 350px;
+    width:80px;
+    height:30px;
+    font-size:20px;
+    transform: translate(-50%);
+    background:#1E8EE5;
+    color: white;
+}

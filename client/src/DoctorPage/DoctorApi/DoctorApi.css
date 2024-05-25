@@ -1,0 +1,28 @@
+.DoctorApiContainer{
+    width:90%;
+    height:90vh;
+    background: gray;
+    box-shadow: 5px 5px 5px black;
+    position:absolute;
+    margin-top:2%;
+    left:50%;
+    transform: translate(-50%);
+}
+.Doctorapiinputs{
+    margin-left: 60%;
+}
+.Doctorapiinput{
+    
+    margin-left:25%;
+}
+.Doctorapiinputs input{
+    width:220px;
+    height:30px;
+
+}
+
+.Doctorapiinput input{
+    width:220px;
+    height:30px;
+    
+}

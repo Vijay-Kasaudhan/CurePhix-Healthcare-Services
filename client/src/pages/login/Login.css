@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@300;600&family=Open+Sans:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.UserLoginpage{
+    width:400px;
+    height:550px;
+    background:#F5FFFA;
+    position:relative;
+    top:20px;
+    left: 50%;
+    margin-bottom:130px;
+    margin-top: 30px; 
+    transform: translate(-50%);
+    box-shadow: 3px 2px 3px #0171d3;
+}
+.UserLoginpage img{
+    width:200px;
+    height:200px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+/* .Loginpage::before{
+    width:400px;
+    height:600px;
+    background: grey;
+    border: 2px solid red;
+    position: absolute;
+    left:400px;
+    z-index: 12;
+} */
+.Userform{
+    position:absolute;
+    top:25%;
+    left:15%;
+}
+.UserLoginpage p{
+    font-family:"'Anybody', cursive";
+    font-size:22px;
+    font-weight: 700;
+   position: absolute;
+   top:40px;
+   left:45%;
+   margin-bottom: 50px;
+   transform: translate(-50%);
+}
+.Userinput-field{
+width:300px;
+height:55px;
+position:absolute;
+top:33%;
+margin-top: 20px;
+    
+border-bottom: 1px solid black;
+margin-left: 50%;
+transform:translate(-50%);
+}
+.Userinput-field1{
+width:300px;
+height:55px;
+position:absolute;
+top:45%;
+margin-top:20px;
+
+border-bottom: 1px solid black;
+margin-left: 50%;
+transform:translate(-50%);
+}
+.Userinput-field1 input{
+    width:297.5px;
+    height:30px;
+    /* outline:white; */
+    border:0px; 
+    margin-top:5px;
+    
+}
+.Userinput-field input{
+    width:297.5px;
+    height:30px;
+    /* outline:white; */
+    border:0px; 
+    margin-top:5px;
+    
+}
+.UserLoginpage button{
+    margin-top:40px;
+    margin-left:50%;
+    position: absolute;
+     top:69%;
+    transform: translate(-50%);
+    width:100px;
+    height:40px;
+    background: #0171d3;
+    color:white;
+   border:2px solid #F5FFFA;
+   font-size:16px;
+}
+.Userregestrationformlink{
+    position:relative;
+    top:28%;
+}
+.Userregestrationformlink span{
+    margin-left:25%;
+    
+}
+.forgetpassword{
+    position:relative;
+    top:24%;
+    left:60%;
+}
+@media(max-width:420px){
+    .UserLoginpage{
+        width:350px;
+        height:600px;
+        margin-top:5%;
+    }
+    .Userinput-field{
+        width:280px;
+        height:65px;
+        
+        
+        }
+        .Userinput-field input{
+            width:280px;
+            height:40px;
+        }
+        .Userinput-field1 input{
+            width:280px;
+            height:40px;
+        }
+        .Userinput-field1{
+        width:280px;
+        height:65px;
+        top:47%;
+       
+        }
+        .UserLoginpage p{
+                  font-size:22px;   
+            left:35%;
+            transform: translate(-50%);
+         
+        }
+     
+        .Userregestrationformlink{
+            margin-left:-40px;
+            
+        }
+}
+/* @media(min-width:390px) and (max-width:420px){
+    .UserLoginpage{
+        width:386px;
+    }
+} */

@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@300;600&family=Open+Sans:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+.header1{
+    width:100%;
+    height:40vh;
+    background:#c0c0c07e;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    
+    top: 10px;
+    background:linear-gradient(to right,#1E8EE5,#64b5f3,#e4edf5);
+
+}
+.header1 .span1{
+   margin-top:10px;
+  font-size:30px;
+  position: absolute;
+  top:40px;
+  font-weight: 800;
+  color: white;
+}
+.searchcontainer input{
+    height:40px;
+    width: 500px;
+   border:white;
+   position: absolute;
+   margin-left:10px;
+   margin-top:0px;
+   outline: white;
+  }
+  .searchcontainer{
+    margin-left:30px;
+    margin-top:70px;
+    height:40px;
+    width:540px;
+    border: white;
+    background: white;
+    position: relative;
+  }
+  .searchbar{
+    height:40px;
+    width:240px;
+    background: white;
+    border: white;
+    position: relative;
+    margin-top:70px;
+  }
+.searchbar select{
+  height:40px;
+  width:200px;
+  position: absolute;
+  margin-left:8px;
+  border: white;
+  outline: none;
+}
+.header1 h3{
+  position: absolute;
+  top:120px;
+  color: white;
+}
+.button{
+  border: white;
+}
+.button .searchbutton{
+    width:80px;
+    height:40px;
+    margin-left:10px;
+    background:#1E88E5;
+    border: white;
+    margin-top:70px;
+}
+.searchbutton span{
+color: white;
+}
+@media (min-width:370px) and (max-width:430px){
+  .header1{
+    height:62vh;
+  
+  }
+    .searchcontainer{
+     display:block;
+     /* left: -167.5px; */
+     right:35%;
+     margin-top:80px; 
+    width:240px;
+    }
+    .searchcontainer input{
+      width:220px;
+    }
+    .button .searchbutton{
+     display:block;
+    position: absolute;
+    bottom:20%;
+    left:50%;
+    transform: translate(-50%);
+    width: 100px;
+     }
+    .header1 .span1{
+      font-size:20px;
+      margin-left:40px;
+      margin-right:40px;
+    }
+    .header1 h3{
+      display:none;
+    }
+   
+    .button .searchbutton span{
+      font-size: 15px;
+      font-weight: bold;
+    }
+    .searchbar {
+     /* left:45px; */
+     left:18.5%;
+     margin-top:-30px;
+     width:240px;
+    }
+    .searchbar select{
+      width:220px;
+    }
+   
+  }
+  @media   (max-width:360px){
+    .header1{
+      height:62vh;
+    
+    }
+      .searchcontainer{
+       display:block;
+       /* left: -167.5px; */
+       right:40%;
+       margin-top:80px; 
+      width:240px;
+      }
+      .searchcontainer input{
+        width:220px;
+      }
+      .button .searchbutton{
+       display:block;
+      position: absolute;
+      top: 245px;
+      left:120px;
+      width: 100px;
+       }
+      .header1 .span1{
+        font-size:20px;
+        margin-left:40px;
+        margin-right:40px;
+      }
+      .header1 h3{
+        display:none;
+      }
+     
+      .button .searchbutton span{
+        font-size: 15px;
+        font-weight: bold;
+      }
+      .searchbar {
+       /* left:45px; */
+       left:14%;
+       margin-top:-30px;
+       width: 240px;
+      }
+      .searchbar select{
+        width:220px;
+      }
+     
+    }
+    @media screen and (min-width:765px) and (max-width:835px) {
+      .header1{
+        width:100%;
+      }
+      .header1 .span1{
+        left:17%;
+        font-size:20px ;
+      }
+      .searchbar{
+        height:40px;
+        width:140px;
+       /* margin-left: -50px; */
+      }
+      .searchbar select{
+       width:120px;
+       }
+      .searchcontainer{
+        margin-left:40px;
+        margin-top:70px;
+        height:40px;
+        width:360px;
+       }
+      .searchcontainer input{
+        width:320px;
+      }
+      .button .searchbutton{
+        width:80px;
+        margin-left:20px;
+      }
+    }

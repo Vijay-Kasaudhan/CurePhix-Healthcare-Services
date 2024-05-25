@@ -1,0 +1,32 @@
+.Adminlogincontainer{
+    width:450px;
+    height:700px;
+    border:1px solid black;
+    position:absolute;
+    top:10%;
+    left:45%;
+    transform: translate(-50%);
+}
+.Adminloginlogo img{
+  width:150px;
+  height:150px;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+.Adminlogininput{
+    margin-top: 30px;
+    margin-left: 40%;
+    transform:translate(-50%);
+}
+.Adminlogininput input{
+  width:350px;
+  height:40px;
+
+}
+
+.Adminloginbtn button{
+  width:100px;
+  
+  font-size:16px;
+
+}

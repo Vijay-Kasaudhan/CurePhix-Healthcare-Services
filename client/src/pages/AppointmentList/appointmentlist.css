@@ -1,0 +1,24 @@
+.Appointmenthistory button{
+    width:300px;
+    height:40px;
+    margin-left: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transform: translate(-50%);
+    background:#1E88E5;
+    color:white;
+    font-size:18px;
+}
+.currentappointment{
+    display:block;
+}
+.currentappointments{
+    display:none;
+}
+.allappointment{
+    display:block;
+
+}
+.allappointments{
+    display:none;
+}

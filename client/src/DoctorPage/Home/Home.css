@@ -1,0 +1,191 @@
+.Welcome{
+    position: relative;
+    top:15px;
+    left:.5%;
+    width:99%;
+    border: 1px solid white;
+    height:400px;
+    background:linear-gradient(to right,#1E8EE5,#64b5f3,#e4edf5);
+}
+.Welcome img{
+    margin-left: 50%;
+    margin-top:25px;
+    transform:translate(-50%);
+}
+.Welcome p{
+    margin-top:15px;
+    margin-left:35%;
+    font-size:32px;
+}
+.Welcome span{
+    position:absolute;
+    left:50%;
+    top:250px;
+    margin-top: 20px;
+    font-size: 32px;
+    color:white;
+    transform: translate(-50%);
+   
+}
+.Doctoroption{
+    width:650px;
+    height:250px;
+    background:white;
+    box-shadow: 5px 5px 5px black;
+    position: relative;
+    top:50px;
+    left:1%;
+    margin-bottom:100px;
+}
+.inputs{
+    position: relative;
+    top:50px;
+    left:30%;
+    margin-top: 5px;
+}
+.inputs label{
+    font-size:18px;
+}
+.statusupdatebtn{
+    position: relative;
+    top:55px;
+    left:-75px;
+    width:80px;
+    height:40px;
+    font-size: 18px;
+    background:#1E8EE5;
+    color:white;
+    border:1px solid white;
+}
+.Doctoroption span{
+    position: relative;
+    top:15px;
+    left:15px;
+    right:5px;
+}
+.DoctorApiupdates{
+    width:650px;
+    height:250px;
+    border:2px solid black;
+    position:absolute;
+    top:530px;
+    left:56%;
+}
+.DoctorApiupdates span{
+    font-size: 18px;
+    margin-left:10%;
+    
+    margin-top:20%;
+}
+.DoctorApiupdates button{
+    position: relative;
+    top:55px;
+    left:-125px;
+    width:100px;
+    height:40px;
+    font-size: 16px;
+    background:#1E8EE5;
+    color:white;
+    border:1px solid white;
+}
+.DoctorApiupdate{
+    display:block;
+    position:fixed;
+    width:450px;
+    height:600px;
+    box-shadow: 5px 5px 5px black;
+    background:white;
+    top:10%;
+    left:35%;
+    }
+    .DoctorApiupdateContainer{
+        margin-top:10%;
+    }
+    .DoctorApiupdateinput{
+        border-bottom:1px solid black;
+        height:60px;
+        margin-top: 10px;
+        position:relative;
+        top:10%;
+        left:50%;
+        transform: translate(-50%);
+        width:300px;
+    }
+    .DoctorApiupdateinputday{
+        margin-left:16% ;
+        margin-top: 10px;
+    }
+    .DoctorApiupdateinputday span{
+    display: block;
+    margin-top:10px;
+    margin-left: 4%;
+    }
+    .DoctorApiupdateinput input{
+        width:300px;
+        height:30px;
+        position: absolute;
+        bottom:0px;
+        border:0px;
+        
+    }
+    .DoctorApiupdatess{
+        display: none;
+    }
+.AboutUs{
+    width:98%;
+    height:250px;
+    margin-left:15px;
+    border:2px solid black;
+    position: relative;
+    top:0x;
+}
+@media(max-width:420px){
+    .Welcome p{
+        margin-top:15px;
+        margin-left:25%;
+        font-size:22px;
+    }
+    .Welcome span{
+        position:absolute;
+        left:50%;
+        top:250px;
+        margin-top: 20px;
+        font-size: 22px;
+        color:white;
+        transform: translate(-50%);
+       
+    }
+    .Doctoroption{
+        width:94%;
+        height:350px;
+        background:white;
+        box-shadow: 5px 5px 5px black;
+        position: relative;
+        top:25px;
+        left:2.5%;
+        margin-bottom:50px;
+    }
+    .Doctoroption span{
+        position: relative;
+        top:15px;
+        left:15px;
+        right:5px;
+        font-size:18px;
+    }
+    .DoctorApiupdates{
+        width:94%;
+        height:300px;
+        box-shadow: 5px 5px 5px black;
+        background-color: white;
+        position:relative;
+        top:5px;
+        left:2.5%;
+        margin-bottom: 10px;
+    }
+    .AboutUs{
+        width:94%;
+        left:-5px;
+        background: white;
+        box-shadow: 5px 5px 5px black;
+    }
+}

@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@300;600&family=Open+Sans:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+.doctorloginpage span{
+    position:relative;
+    top:35px;
+    left:37%;
+    font-size:25px;
+    font-weight:600;
+    transform: translate(-50%);
+}
+.Loginpage{
+    width:400px;
+    height:550px;
+    background:#F5FFFA;
+    position:relative;
+    top:50px;
+    left: 50%;
+    margin-bottom:130px;
+    margin-top: 30px;
+    transform: translate(-50%);
+    box-shadow: 3px 2px 3px #0171d3;
+}
+.Loginpage img{
+    width:200px;
+    height:200px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+/* .Loginpage::before{
+    width:400px;
+    height:600px;
+    background: grey;
+    border: 2px solid red;
+    position: absolute;
+    left:400px;
+    z-index: 12;
+} */
+.Loginpage p{
+    font-family:"'Anybody', cursive";
+    font-size:26px;
+    font-weight: 700;
+   position: absolute;
+   top:40%;
+   left:45%;
+   transform: translate(-50%);
+}
+.input-field{
+width:300px;
+height:55px;
+position:absolute;
+top:33%;
+margin-top: 20px;
+    
+border-bottom: 1px solid black;
+margin-left: 50%;
+transform:translate(-50%);
+}
+.input-field1{
+width:300px;
+height:55px;
+position:absolute;
+top:45%;
+margin-top:20px;
+
+border-bottom: 1px solid black;
+margin-left: 50%;
+transform:translate(-50%);
+}
+.input-field1 input{
+    width:297.5px;
+    height:30px;
+    /* outline:white; */
+    padding: 10px;
+    border:0px; 
+    margin-top:5px;
+    
+}
+.input-field input{
+    width:297.5px;
+    height:30px;
+    /* outline:white; */
+    border:0px; 
+    margin-top:5px;
+    padding: 10px;
+}
+.Loginpage button{
+  
+    position: absolute;
+    top:69%;
+    left: 50%;
+    margin-top: 40px;
+    transform: translate(-50%);
+    width:100px;
+    height:40px;
+    background: #0171d3;
+    color:white;
+   border:2px solid #F5FFFA;
+   font-size:16px;
+}
+.regestrationformlink{
+   position: relative;
+   top:28%;
+    
+}
+.regestrationformlink span{
+    margin-left:25%;
+    
+}
+.doctorforgetpassword{
+    position:relative;
+    top:24%;
+    left:60%;
+}
+@media(max-width:420px){
+    .doctorloginpage span{
+        left:10%;
+    }
+    .Loginpage{
+        width:340px;
+        height:600px;
+        margin-top:5%;
+    }
+    .input-field{
+        width:280px;
+        height:55px;
+    
+        
+        }
+        .input-field input{
+            width:280px;
+        }
+        .input-field1 input{
+            width:280px;
+        }
+        .input-field1{
+        width:280px;
+        height:55px;
+        margin-top:20px;
+       
+        }
+        .Loginpage p{
+                     
+            left:80%;
+         
+        }
+     
+        .regestrationformlink{
+            margin-left:-40px;
+            
+        }
+}
+@media(min-width:390px) and (max-width:420px){
+    .Loginpage{
+        width:388px;
+    }
+}

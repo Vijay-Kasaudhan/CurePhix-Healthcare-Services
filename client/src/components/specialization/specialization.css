@@ -1,0 +1,32 @@
+.Featuredcontainer{
+    margin-left:50%;
+    transform: translate(-50%);
+    margin-bottom:65px;
+}
+.Featuredcontainer {
+  height: 350px;
+  width:70%;
+    background-color:rgb(214, 207, 207);
+    overflow-x:scroll;
+    white-space:nowrap;
+  }
+ 
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+
+  @media(max-width:320px){
+    .Featuredcontainer {
+      height:250px;
+        margin-left:2px;
+      }
+  }

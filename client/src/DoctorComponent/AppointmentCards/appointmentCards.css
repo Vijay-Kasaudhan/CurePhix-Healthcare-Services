@@ -1,0 +1,71 @@
+.Appointmentcard{
+    width: 80%;
+    height:30vh;
+    background: white;
+    box-shadow: 5px 5px 5px black;
+    margin-left:10%;
+    margin-top: 20px;
+    /* background-image: url(""); */
+    background-repeat: no-repeat;
+    background-size:500px 30vh;
+    background-position: 50%;
+    margin-bottom: 20px;
+    position: relative;
+}
+.appointmentslip h3{
+    position: absolute;
+    top:5%;
+    left:50%;
+    transform: translate(-50%);
+    font-size: 20px;
+}
+.Doctorinformation{
+    position: absolute;
+    right:10%;
+    top: 5%;
+}
+.Patientinfo{
+    position: absolute;
+    margin-left:10%;
+    top: 5%;
+}
+.Appointmenttime{
+    position: absolute;
+    bottom:20%;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+.Appointmenttime span{
+    color:green;
+}
+
+
+@media screen and (max-width:420px){
+.Appointmentcard{
+    width:90%;
+    margin-left:4%;
+    height:70vh;
+}
+.appointmentslip h3{
+    position: absolute;
+    top:5%;
+    left:50%;
+    transform: translate(-50%);
+    font-size: 20px;
+}
+.Doctorinformation{
+ 
+    top:16%;
+}
+.Patientinfo{
+   
+    top:16%;
+}
+.Appointmenttime{
+
+    bottom:10%;
+  
+    transform: translate(-50%);
+}
+
+}

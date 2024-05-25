@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@300;600&family=Open+Sans:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+.Userregistrationpage{
+    width:400px;
+    height:850px;
+    background:#F5FFFA;
+    position:relative;
+    top:17%;
+    left: 50%;
+    margin-bottom:30px;
+    margin-top: 30px;
+    transform: translate(-50%);
+    box-shadow:3px 2px 3px #0171d3;
+}
+/* .Loginpage::before{
+    width:400px;
+    height:600px;
+    background: grey;
+    border: 2px solid red;
+    position: absolute;
+    left:400px;
+    z-index: 12;
+} */
+.Loginpage p{
+    font-family:"'Anybody', cursive";
+    font-size:26px;
+    font-weight: 700;
+   position: absolute;
+   top: 178px;
+   left:50%;
+   transform: translate(-50%);
+}
+.Userregistrationpage img{
+    width:200px;
+    height:200px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+.Userregistrationinput-field{
+width:300px;
+height:55px;
+position:relative;
+top:30px;
+border-bottom: 1px solid black;
+margin-left: 50%;
+transform:translate(-50%);
+}
+.Userregistrationinput-field1{
+width:300px;
+height:55px;
+margin-top:20px;
+position:relative;
+top:30px;
+border-bottom: 1px solid black;
+margin-left: 50%;
+transform:translate(-50%);
+}
+.Userregistrationinput-field1 input{
+    width:297.5px;
+    height:30.5px;
+
+    border:0px; 
+    margin-top:4.5px;
+    
+}
+.Userregistrationinput-field input{
+    width:297.5px;
+    height:30.5px;
+ 
+    border:0px; 
+    margin-top:4.5px;
+    
+}
+.Userregistrationpage button{
+    margin-top:90px;
+    margin-left:50%;
+    transform: translate(-50%);
+    width:100px;
+    height:40px;
+    background: #0171d3;
+    color:white;
+    border:2px solid #F5FFFA;
+    font-size:16px;
+}
+.Userregestrationformlink{
+    margin-top:20px;
+}
+.Userregestrationformlink span{
+    margin-left:23%;
+    
+}
+.show{
+    display:block;
+    background: red;
+}
+.notshow{
+    display: none;
+}
+.checkbox{
+    display: block;
+}
+.terms{
+    position: relative;
+    top:80px;
+    margin-left:40px;
+}
+@media(max-width:420px){
+    .Userregistrationpage{
+        width:360px;
+        height:800px;
+       top:-80px;
+    }
+    .Userregistrationinput-field{
+        width:240px;
+        height:55px;
+        margin-top:-30px;
+        
+        }
+        .Userregistrationinput-field1{
+        width:240px;
+        height:55px;
+        margin-top:20px;
+       
+        }
+        .Userregistrationinput-field input{
+            width:240px;
+        }
+        .Userregistrationinput-field1 input{
+            width:240px;
+        }
+        .Loginpage p{
+            top:140px;
+        }
+     
+        .Userregestrationformlink{
+            margin-left:-40px;
+            
+        }
+}

@@ -1,0 +1,204 @@
+.navbar1{
+    height:80px;
+    background-color:white;
+    box-shadow: 5px 5px 5px transparent;
+    /* position:relative; */
+    position: sticky;
+    top:0px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap:10px;
+    z-index: 20;
+    }
+.navContainer{
+    display: flex;
+    color:white;
+    align-items: center;
+   justify-content: center;
+}
+.navItem{
+    border:1px solid #1E88E5;
+    width:120px ;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right:20px;
+    top:40px;
+    transform: translateY(-50%);
+    background:#1E88E5;
+}
+.headerpage{
+    position: absolute;
+    left:260px;
+    top:15px;
+}
+.doctorr{
+    position: absolute;
+    top:40px;
+    transform: translateY(-50%);
+    right:190px;
+}
+
+
+.doctorr span{
+    color: aliceblue;
+}
+/*.navItems{
+    width: 120px;
+    height: 40px;
+    border:2px solid #000000bb;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
+
+
+.navItems .navButton p{
+    outline: none;
+    color: white;
+}
+.navimg{
+margin-left:-15px;
+margin-top:0px;
+
+}
+.navimg img{
+    margin-top:80px;
+    
+}
+.navButton{
+    border:2px solid black
+}
+
+.menuleft {
+    width:320px;
+    height:50%;
+    background:black;
+    position:absolute;
+    top:0px;
+    display:none;
+    
+    
+    }
+    
+    input[type="checkbox"] {
+    position:relative;
+    left:50px;
+    top: 10px;
+    display:none;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-image: url("../../image/menu.png");
+    z-index: 12;
+    
+    appearance: none;
+    }
+    
+    input[type="checkbox"]:checked + .menuleft{
+    left: 0%;
+    display: block;
+    z-index: 9;
+    }
+    
+    input[type="checkbox"]:checked {
+    left:450px;
+    background-image: url("../../image/cross.ico");
+    }
+    .headerpage ul li{
+        display:block;
+        margin-left:20px;
+        margin-top:16px;
+        }
+
+
+
+
+
+
+
+      @media (max-width:420px) {
+            .navbar1{
+                position:sticky;
+            }
+            /* .navimg .navImage{
+                width:150px;
+                height:65px;
+                margin-left:15%;
+            } */
+            .navItem{
+                width:80px;
+                height:30px;
+            }
+            .navimg img{
+                width: 140px;
+                height:65px;
+                margin-left:15%;
+                margin-top: 15px;
+            }
+            .doctorr{
+                display: none;
+            }
+            input[type="checkbox"]{
+                display: block;
+                border: 2px solid black;
+                
+                margin:25px;
+                padding:10px;
+                transform: translate(-50%);
+                background: url("../../image/menu.png");
+            }
+            .headerpage{
+                display: none;
+            }
+            .menuleft{
+                width:100%;
+                height: 100vh;
+                background:#1E88E5;
+                font-size: 20px;
+                
+            }
+                
+            
+            .menuleft .menu ul{
+                margin-top:150px;
+            }
+            .menuleft .menu ul li{
+             margin-top:0px;
+             margin-left:30%;
+            font-size: 24px;
+             display:flex;
+             align-items: center;
+             width:250px;
+             height:60px;
+            
+            }
+            /* .menuleft .menu ul li{
+               
+                
+            } */
+            .menulogo{
+                width:250px;
+                height:100px;
+                background:white;
+            }
+           /* .navItems{
+                width: 60px;
+            right: 10px;
+            }*/
+            .navItems .navButton1{
+                display: none;
+            }
+        }
+        @media screen and (min-width:765px) and (max-width:840px) {
+         .headerpage ul li{
+            margin-left:2px;
+         }   
+         .headerpage{
+            left:220px;
+         }
+        }
